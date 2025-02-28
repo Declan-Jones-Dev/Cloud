@@ -19,11 +19,11 @@ Note: The use of the AZ CLI has been done on a windows native OS using Ubuntu mu
 ### 1. Install multipass if applicable, az CLI, and login from either bash or powershell with 'az login'.
 
 ### 2. Deploy a VM using the bash script
-chmod +x deploy_vm.sh
+chmod +x deploy_vm.sh &&
 ./deploy_vm.sh
 
 ### 3. Deploy resources using terraform
-terraform init
+terraform init &&
 terraform apply
 
 ### 4. Configure Azure Monitor using Bicep
